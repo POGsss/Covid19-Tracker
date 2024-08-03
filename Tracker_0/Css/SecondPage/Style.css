@@ -15,8 +15,20 @@
 	list-style: none;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+
 body{
 	background: #F8F8F8;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 /*--------------- STYLE ---------------*/		
@@ -804,9 +816,10 @@ svg .continent.active path {
 		font-size: 18px;
 	}
 	
- #hintBox {
-  width: 100%;
- }
+	#hintBox {
+		width: 100%;
+	}
+}
 
 @media (max-width: 900px){
 	
@@ -986,4 +999,4 @@ svg .continent.active path {
   to {opacity: 1;}
 }
 
-/*--------------- KEYFRAMES ---------------*/		
+/*--------------- KEYFRAMES ---------------*/
