@@ -17,6 +17,8 @@
 
 body{
 	background: #F8F8F8;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 /*--------------- STYLE ---------------*/		
@@ -264,7 +266,7 @@ body{
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	transform: translateY(-90%);
+	transform: translate(40%, -90%);
 	height: 450px;
 	z-index: -1;
 }

@@ -15,8 +15,20 @@
 	list-style: none;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+
 body{
 	background: #F8F8F8;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 /*--------------- STYLE ---------------*/		

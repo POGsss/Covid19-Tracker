@@ -6,10 +6,9 @@
 	left: 0;
 	width: 100%;
 	padding: 30px 10px 50px;
-	background: ;
 	color: #080808;
 	text-align: center;
-	overflow: auto;
+	overflow: hidden;
 	z-index: 2;
 }
 
