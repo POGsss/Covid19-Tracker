@@ -1,0 +1,322 @@
+/*--------------- SYMPTOMS ---------------*/         
+
+#Symptms {
+	position: relative;
+	top: 59px;
+	left: 0;
+	width: 100%;
+	padding: 50px 10px 115px;
+	background: #080808;
+	color: white;
+	text-align: center;
+	z-index: 3;
+}
+
+#head4 {
+	position: relative;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 50px;
+	width: 300px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-bottom: 3px solid white;
+}
+
+#signs {
+	font-size: 20px;
+	color: #808080;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+#wave4 {
+	position: relative;
+	top: 65px;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#consult {
+	width: 100%;
+}
+
+#innerConsult {
+	font-size: 20px;
+	text-transform: uppercase;
+	background: #7DB545;
+	border-radius: 25px;
+	padding: 10px 40px;
+	margin: 20px;
+}
+
+#innerConsult:hover {
+	background: #D64545;
+	transition: 0.2s;
+}
+
+#innerSymptms {
+	margin-bottom: 50px;
+}
+
+.timeline {
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.timeline::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 6px;
+	background: #F8F8F8;
+	left: 50%;
+	margin-left: -3px;
+}
+
+.container {
+	padding: 10px 40px;
+	position: relative;
+	width: 50%;
+	z-index: 1;
+}
+
+.container::after {
+	content: '';
+	position: absolute;
+	top: 15px;
+	right: -17px;
+	width: 25px;
+	height: 25px;
+	background: #7DB545;
+	border-radius: 50%;
+	border: 4px solid #F8F8F8;
+}
+
+.left {
+	left: 0;
+}
+
+.right {
+	left: 50%;
+}
+
+.right::after {
+	left: -16px;
+}
+
+.left::before {
+	content: '';
+	height: 0px;
+	width: 0px;
+	position: absolute;
+	top: 22px;
+	right: 30px;
+	border: 10px solid #F8F8F8;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent #F8F8F8;
+}
+
+.right::before {
+	content: '';
+	height: 0px;
+	width: 0px;
+	position: absolute;
+	top: 22px;
+	left: 30px;
+	border: 10px solid #F8F8F8;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #F8F8F8 transparent transparent;
+}
+
+.content {
+	padding: 20px 30px;
+	background: #F8F8F8;
+	border-radius: 6px;
+}
+
+.content h2 {
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.photo1 {
+	width: 150px;
+}
+
+#Footer {
+	position: relative;
+	top: 59px;
+	left: 0;
+	z-index: 4;
+}
+
+#Footer .inner {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 0px 10px;
+	width: 100%;
+	height: 65px;
+	color: white;
+	background: #080808;
+	box-shadow: 0 0 10px black;
+	overflow: auto;
+}
+
+#Footer .inner label {
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 65px;
+	padding: 0px 5px;
+	text-transform: uppercase;
+	opacity: 0.5;
+}
+
+#Footer .inner .social {
+	float: right;
+	height: 65px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#Footer i {
+	font-size: 50px;
+	color: #F8F8F8;
+	padding: 0px 5px;
+	cursor: pointer;
+}
+
+#Footer i:hover {
+	color: #7DB545;
+	transition: 0.2s;
+}
+
+/*--------------- SYMPTOMS ---------------*/         
+/*--------------- MEDIA ---------------*/        
+
+@media (max-width: 1000px){
+	
+	#head4 {
+		font-size: 45px;
+		width: 250px;
+	}
+	
+	#signs {
+		font-size: 18px;
+	}
+	
+	#innerConsult {
+		font-size: 18px;
+	}
+
+}
+
+@media (max-width: 900px){
+	
+	#head4 {
+		font-size: 40px;
+		width: 225px;
+	}
+	
+	#signs {
+		font-size: 17px;
+	}
+	
+	#innerConsult {
+		font-size: 17px;
+	}
+	
+}
+
+@media (max-width: 800px){
+	
+	#head4 {
+		font-size: 35px;
+		width: 200px;
+	}
+	
+	#signs {
+		font-size: 16px;
+	}
+	
+	#innerConsult {
+		font-size: 16px;
+	}
+	
+}
+
+@media (max-width: 700px){
+	
+	#head4 {
+		font-size: 30px;
+		width: 175px;
+	}
+	
+	#signs {
+		font-size: 15px;
+	}
+	
+	#innerConsult {
+		font-size: 15px;
+	}
+	
+}
+
+@media (max-width: 600px){
+	
+	.timeline::after {
+		left: 31px;
+	}
+
+	.container {
+		width: 100%;
+		padding-left: 70px;
+		padding-right: 25px;
+	}
+
+	.container::before {
+		left: 60px;
+		border-width: 10px 10px 10px 0;
+		border-color: transparent #F8F8F8 transparent transparent;
+	}
+
+	.left::after, .right::after {
+		left: 15px;
+		z-index: 1;
+	}
+
+	.right {
+		left: 0;
+	}
+  
+}
+
+@media (max-width: 350px){
+	
+	#Footer i {
+		font-size: 40px;
+	}
+	
+	#Footer .inner label {
+		font-size: 13px;
+	}
+	
+	.photo1 {
+		width: 100%;
+	}
+	
+}
+
+/*--------------- MEDIA ---------------*/         
+    
+    
