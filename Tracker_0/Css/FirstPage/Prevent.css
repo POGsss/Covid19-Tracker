@@ -1,0 +1,187 @@
+/*--------------- PREVENT ---------------*/         
+
+#Prvnt {
+	position: relative;
+	top: 59px;
+	left: 0;
+	width: 100%;
+	padding: 50px 10px;
+	background: #080808;
+	color: white;
+	text-align: center;
+	z-index: 3;
+}
+
+#head2 {
+	position: relative;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 50px;
+	width: 300px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-bottom: 3px solid white;
+}
+
+#protect {
+	font-size: 20px;
+	color: #808080;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+#prevention {
+	display: inline-block;
+	padding: 10px;
+	width: 1000px;
+	margin-bottom: 50px;
+}
+
+#wave2 {
+	position: relative;
+	top: 65px;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#wave3 {
+	position: relative;
+	top: 55px;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#more {
+	width: 100%;
+}
+
+#innerMore {
+	font-size: 20px;
+	text-transform: uppercase;
+	background: #7DB545;
+	border-radius: 25px;
+	padding: 10px 40px;
+	margin: 20px;
+}
+
+#innerMore:hover {
+	background: #D64545;
+	transition: 0.2s;
+}
+
+.list1 {
+	display: inline-block;
+	margin: 20px;
+}
+
+.cards {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 300px;
+	padding: 5px;
+}
+
+.cards h2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.photo {
+	width: 100%;
+}
+
+/*--------------- PREVENT ---------------*/         
+/*--------------- MEDIA ---------------*/        
+
+@media (max-width: 1000px){
+	
+	#head2 {
+		font-size: 45px;
+		width: 250px;
+	}
+	
+	#protect {
+		font-size: 18px;
+	}
+	
+	#prevention {
+		width: 100%;
+	}
+	
+	#innerMore {
+		font-size: 18px;
+	}
+
+}
+
+@media (max-width: 900px){
+	
+	#head2 {
+		font-size: 40px;
+		width: 225px;
+	}
+	
+	#protect {
+		font-size: 17px;
+	}
+	
+	#innerMore {
+		font-size: 17px;
+	}
+	
+}
+
+@media (max-width: 800px){
+	
+	#head2 {
+		font-size: 35px;
+		width: 200px;
+	}
+	
+	#protect {
+		font-size: 16px;
+	}
+	
+	#innerMore {
+		font-size: 16px;
+	}
+	
+}
+
+@media (max-width: 700px){
+	
+	#head2 {
+		font-size: 30px;
+		width: 175px;
+	}
+	
+	#protect {
+		font-size: 15px;
+	}
+	
+	#innerMore {
+		font-size: 15px;
+	}
+	
+}
+
+@media (max-width: 350px){
+	
+	.list1 {
+		margin: 20px 0px;
+	}
+	
+}
+
+/*--------------- MEDIA ---------------*/         
+    

@@ -1,0 +1,289 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+	<head>
+		<meta charset="UTF-8">
+		<meta id="vp" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+		<meta name="author" content="Frankie B Pinat">
+		<meta name="description" content="A 16 year old boy created a website that will track all the latest data of covid19 to help spread awareness to people (Hirap mag english HAHAHAHA).">
+		<meta name="keywords" content="Covid, Pandemic, Update of Covid, Corona Virus">
+		<meta name="theme-color" content="#080808">
+		<meta name="msapplication-navbutton-color" content="#080808">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta property="og:image" content="Assets/Icons/thumbnail.jpg">
+		<meta property="og:title" content="NEWS: 16 year old boy developed a covid19 tracker webapp.">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+		<link rel="shortcut icon" href="Assets/Logo/Logo.png">
+		<link rel="stylesheet" href="Css/FirstPage/Home.css">
+		<link rel="stylesheet" href="Css/FirstPage/Update.css">
+		<link rel="stylesheet" href="Css/FirstPage/Prevent.css">
+		<link rel="stylesheet" href="Css/FirstPage/About.css">
+		<link rel="stylesheet" href="Css/FirstPage/Symptoms.css">
+		<title>Covid19Update</title>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="preloader">
+				<img id="Dots" src="Assets/Logo/Loader1.gif">
+			</div>
+		</div>
+		<div id="modal1Container">
+			<div id="modal1">
+				<img id="virusUp" src="Assets/Icons/greenVirus.svg">
+				<i onclick="info()" class="fa fa-close"></i>
+				<h1 class="label">Info</h1>
+				<p>
+				This website is developed by 
+				Frankie B Pinat all credits to him.
+				</p>
+				<h2 class="label1">Special thanks to</h2>
+				<p>
+				Francis de Gracia, Woy Prince, 
+				Carl Llemos, Jan Jeffrie Galves Salloman, 
+				Nico, and others.
+				</p>
+			</div>
+		</div>
+		<div id="modal2Container">
+			<div id="modal2">
+				<img id="virusUp" src="Assets/Icons/redVirus.svg">
+				<i onclick="note()" class="fa fa-close"></i>
+				<h1 class="label">NOTE</h1>
+				<p>
+				All of the data shown is based on Johns Hopkins University, 
+				the New York Times, Worldometers, and Apple reports.
+				</p>
+				<h2 class="label1">Source</h2>
+				<p>
+				https://corona.lmao.ninja/
+				</p>
+			</div>
+		</div>
+		<div id="shade"></div>
+		<label id="section1"></label>
+		<div id="Home">
+			<div class="navbar">
+				<div class="inner_navbar">
+					<div class="logo">
+						<label>COVID<span>19</span></label>
+					</div>
+					<div class="menu">
+						<ul>
+							<li><a onclick="frst(event)" class="home active" href="#section1">Home</a></li>
+							<li><a onclick="scnd(event)" class="update" href="#section2">Update</a></li>
+							<li><a onclick="thrd(event)" class="prevent" href="#section3">Prevent</a></li>
+							<li><a onclick="frth(event)" class="about" href="#section4">About</a></li>
+							<li><a onclick="ffth(event)" class="symptoms" href="#section5">Symptoms</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="hamburger">
+					<i class="fa fa-bars"></i>
+				</div>
+			</div>
+			<div id="Hm">
+				<img id="virus1" src="Assets/Icons/greenVirus.svg">
+				<h1 id="head">Stay at <span>Home</span> <br>Stop the <span style="color: #D64545;">Spread</span></h1>
+				<a id="up" href="#section2">Update</a>
+				<img id="virus2" src="Assets/Icons/redVirus.svg">
+			</div>
+			<img id="wave1" src="Assets/Wave/1.svg">
+		</div>
+		<div id="Update">
+			<div id="Updt">
+				<div id="innerUpdt">
+					<label id="section2" class="sections"></label>
+					<h1 id="head1" data-aos="fade" data-aos-offset="100" data-aos-duration="1000">Update</h1>
+					<p id="every" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">Total cases of COVID19</p>
+					<div id="world">
+						<label class="worldwide">Worldwide</label>
+						<img class="case" src="Assets/Logo/World.svg">
+						<ul>
+							<li class="list">
+								<div class="box total" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
+									<label id="totalW" class="num">000,000,000</label>
+									<p class="con">Cases</p>
+									<i id="font" class="fa fa-user"></i>
+								</div>
+							</li>
+							<li class="list">
+								<div class="box" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
+									<label id="recoverW" class="num">000,000,000</label>
+									<p class="rec">Recover</p>
+									<i id="font" class="fa fa-user-plus"></i>
+								</div>
+							</li>
+							<li class="list">
+								<div class="box" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
+									<label id="deathW" class="num">000,000,000</label>
+									<p class="dea">Deaths</p>
+									<i id="font" class="fa fa-user-times"></i>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div id="phil">
+						<label class="philippines">Philippines</label>
+						<img class="case" src="Assets/Logo/Phil.svg">
+						<ul>
+							<li class="list">
+								<div class="box total" data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">
+									<label id="totalP" class="num">000,000,000</label>
+									<p class="con">Cases</p>
+									<i id="font" class="fa fa-user"></i>
+								</div>
+							</li>
+							<li class="list">
+								<div class="box" data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">
+									<label id="recoverP" class="num">000,000,000</label>
+									<p class="rec">Recover</p>
+									<i id="font" class="fa fa-user-plus"></i>
+								</div>
+							</li>
+							<li class="list">
+								<div class="box" data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">
+									<label id="deathP" class="num">000,000,000</label>
+									<p class="dea">Deaths</p>
+									<i id="font" class="fa fa-user-times"></i>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div id="all">
+						<a id="innerAll" href="index1.html">More Info</a>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div id="Prevent">
+			<img id="wave2" src="Assets/Wave/2.svg">
+			<div id="Prvnt">
+				<label id="section3" class="sections"></label>
+				<h1 id="head2" data-aos="fade" data-aos-offset="100" data-aos-duration="1000">Prevent</h1>
+				<p id="protect" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">Protect yourself from COVID19</p>
+				<div id="prevention">
+					<ul>
+						<li class="list1">
+							<div class="cards">
+								<img class="photo" src="Assets/Prevention/mask.svg" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+								<h2 data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">Wear face mask</h2>
+							</div>
+						</li>
+						<li class="list1">
+							<div class="cards">
+								<img class="photo" src="Assets/Prevention/wash.svg" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+								<h2 data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">Wash your hands</h2>
+							</div>
+						</li>
+						<li class="list1">
+							<div class="cards">
+								<img class="photo" src="Assets/Prevention/disinfect.svg" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+								<h2 data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">Disinfect</h2>
+							</div>
+						</li>
+						<li class="list1">
+							<div class="cards">
+								<img class="photo" src="Assets/Prevention/socialDistance.svg" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+								<h2 data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">Social Distancing</h2>
+							</div>
+						</li>
+						<li class="list1">
+							<div class="cards">
+								<img class="photo" src="Assets/Prevention/stayHome.svg" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+								<h2 data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">Stay at Home</h2>
+							</div>
+						</li>
+						<li class="list1">
+							<div class="cards">
+								<img class="photo" src="Assets/Prevention/physical.svg" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+								<h2 data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">Avoid Contact</h2>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div id="more">
+					<a id="innerMore" href="#section4">About</a>
+				</div>
+			</div>
+			<img id="wave3" src="Assets/Wave/3.svg">
+		</div>
+		<div id="About">
+			<div id="Abt">
+				<label id="section4" class="sections"></label>
+				<h1 id="head3" data-aos="fade" data-aos-offset="100" data-aos-duration="1000">About</h1>
+				<p id="what" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">What is COVID19?</p>
+				<div id="innerAbt">
+					<img id="Covid" src="Assets/Logo/Covid.svg" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">
+					<p id="meaning" data-aos="fade-down" data-aos-offset="100" data-aos-duration="1000">
+					The coronavirus disease <span class="highlight">COVID-19</span> is an infectious disease 
+					caused by a new strain of coronavirus. This new virus and disease were unknown 
+					before the outbreak began in Wuhan, China, in December 2019.
+					</p>
+					<p id="meaning" data-aos="fade-down" data-aos-offset="100" data-aos-duration="1000">
+					A mild to severe respiratory illness that is caused by a 
+					coronavirus <span class="highlight">Severe acute respiratory syndrome coronavirus 2 of the genus Betacoronavirus</span>, 
+					is transmitted chiefly by contact with infectious material <span class="highlight">such as respiratory droplets</span> 
+					or with objects or surfaces contaminated by the causative virus, 
+					and is characterized especially by fever, cough, and shortness of breath 
+					and may progress to pneumonia and respiratory failure.
+					</p>
+				</div>
+				<div id="read">
+					<a id="innerRead" href="#section5">Symptoms</a>
+				</div>
+			</div>
+		</div>
+		<div id="Symptoms">
+			<img id="wave4" src="Assets/Wave/4.svg">
+			<div id="Symptms">
+				<label id="section5" class="sections"></label>
+				<h1 id="head4" data-aos="fade" data-aos-offset="100" data-aos-duration="1000">Symptoms</h1>
+				<p id="signs" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">Be aware of COVID19</p>
+				<div id="innerSymptms">
+					<div class="timeline">
+						<div class="container left">
+							<div class="content" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+								<h2>Sore Throat</h2>
+								<img class="photo1" src="Assets/Symptoms/breath.svg">
+							</div>
+						</div>
+						<div class="container right">
+							<div class="content" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+								<h2>Dry Cough</h2>
+								<img class="photo1" src="Assets/Symptoms/cough.svg">
+							</div>
+						</div>
+						<div class="container left">
+							<div class="content" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+								<h2>Severe Fever</h2>
+								<img class="photo1" src="Assets/Symptoms/fever.svg">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="consult">
+					<a id="innerConsult" href="#section1">Back to top</a>
+				</div>
+				<img id="virus3" src="Assets/Icons/redVirus2.svg">
+			</div>
+			<div id="Footer">
+				<div class="inner">
+					<div class="social">
+						<i onclick="info()" class="fa fa-info-circle"></i>
+						<i onclick="note()" class="fa fa-exclamation-circle"></i>
+						<a href="https://facebook.com/frankie.b.pinat" target="_blank">
+							<i class="fa fa-facebook-square"></i>
+						</a>
+					</div>
+					<label>©Frankie B Pinat</label>
+				</div>
+			</div>
+		</div>
+	<script src="Javascript/Jquery/jquery-3.5.1.min.js"></script>
+	<script src="Javascript/FirstPage/Main.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+	</body>
+</html>

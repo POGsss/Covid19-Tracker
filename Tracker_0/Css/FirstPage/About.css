@@ -1,0 +1,191 @@
+/*--------------- ABOUT ---------------*/         
+
+#Abt {
+	position: relative;
+	top: 59px;
+	left: 0;
+	width: 100%;
+	padding: 30px 10px 100px;
+	color: #080808;
+	text-align: center;
+	z-index: 2;
+}
+
+#head3 {
+	position: relative;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 50px;
+	color: #080808;
+	width: 250px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-bottom: 3px solid #080808;
+}
+
+#what {
+	font-size: 20px;
+	color: #404040;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+#innerAbt {
+	display: inline-block;
+	width: 900px;
+	padding: 0px 20px;
+	margin-bottom: 50px;
+	overflow: auto;
+}
+
+#Covid {
+	float: left;
+	width: 300px;
+	margin: 0px 20px 10px 0px;
+}
+
+#meaning {
+	font-size: 15px;
+	letter-spacing: 3px;
+	color: #080808;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#read {
+	width: 100%;
+}
+
+#innerRead {
+	font-size: 20px;
+	text-transform: uppercase;
+	background: #7DB545;
+	border-radius: 25px;
+	padding: 10px 40px;
+	margin: 20px;
+}
+
+#innerRead:hover {
+	background: #D64545;
+	transition: 0.2s;
+}
+
+.highlight {
+	font-weight: bold;
+	color: #D64545;
+}
+
+/*--------------- ABOUT ---------------*/         
+/*--------------- MEDIA ---------------*/        
+
+@media (max-width: 1000px){
+	
+	#head3 {
+		font-size: 45px;
+		width: 225px;
+	}
+	
+	#what {
+		font-size: 18px;
+	}
+	
+	#innerRead {
+		font-size: 18px;
+	}
+	
+}
+
+@media (max-width: 900px){
+	
+	#head3 {
+		font-size: 40px;
+		width: 200px;
+	}
+	
+	#what {
+		font-size: 17px;
+	}
+	
+	#innerAbt {
+		width: 650px;
+	}
+	
+	#innerRead {
+		font-size: 17px;
+	}
+	
+}
+
+@media (max-width: 800px){
+	
+	#head3 {
+		font-size: 35px;
+		width: 175px;
+	}
+	
+	#what {
+		font-size: 16px;
+	}
+	
+	#innerRead {
+		font-size: 16px;
+	}
+	
+}
+
+@media (max-width: 700px){
+	
+	#head3 {
+		font-size: 30px;
+		width: 150px;
+	}
+	
+	#what {
+		font-size: 15px;
+	}
+	
+	#innerRead {
+		font-size: 15px;
+	}
+	
+}
+
+@media (max-width: 650px){
+	
+	#innerAbt {
+		width: 100%;
+	}
+	
+}
+
+@media (max-width: 550px){
+	
+	#Covid {
+		width: 250px;
+	}
+	
+}
+
+@media (max-width: 500px){
+	
+	#Covid {
+		width: 300px;
+		float: none;
+		margin: 0px 0px 0px 0px;
+		display: inline-block;
+	}
+	
+}
+
+@media (max-width: 350px){
+	
+	#Covid {
+		width: 100%;
+	}
+	
+}
+
+/*--------------- MEDIA ---------------*/         
+    
