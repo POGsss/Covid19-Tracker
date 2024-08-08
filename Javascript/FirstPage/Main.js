@@ -38,47 +38,47 @@ hamburger.addEventListener("click", function(){
 
 function frst(evt){
 	menu.classList.toggle("active");
- document.querySelector(".update").classList.remove("active");
- document.querySelector(".prevent").classList.remove("active");
- document.querySelector(".about").classList.remove("active");
- document.querySelector(".symptoms").classList.remove("active");
- evt.currentTarget.className += " active";
+	document.querySelector(".update").classList.remove("active");
+	document.querySelector(".prevent").classList.remove("active");
+	document.querySelector(".about").classList.remove("active");
+	document.querySelector(".symptoms").classList.remove("active");
+	evt.currentTarget.className += " active";
 }
 
 function scnd(evt){
 	menu.classList.toggle("active");
- document.querySelector(".home").classList.remove("active");
- document.querySelector(".prevent").classList.remove("active");
- document.querySelector(".about").classList.remove("active");
- document.querySelector(".symptoms").classList.remove("active");
- evt.currentTarget.className += " active";
+	document.querySelector(".home").classList.remove("active");
+	document.querySelector(".prevent").classList.remove("active");
+	document.querySelector(".about").classList.remove("active");
+	document.querySelector(".symptoms").classList.remove("active");
+	evt.currentTarget.className += " active";
 }
 
 function thrd(evt){
 	menu.classList.toggle("active");
- document.querySelector(".update").classList.remove("active");
- document.querySelector(".home").classList.remove("active");
- document.querySelector(".about").classList.remove("active");
- document.querySelector(".symptoms").classList.remove("active");
- evt.currentTarget.className += " active";
+	document.querySelector(".update").classList.remove("active");
+	document.querySelector(".home").classList.remove("active");
+	document.querySelector(".about").classList.remove("active");
+	document.querySelector(".symptoms").classList.remove("active");
+	evt.currentTarget.className += " active";
 }
 
 function frth(evt){
 	menu.classList.toggle("active");
- document.querySelector(".update").classList.remove("active");
- document.querySelector(".prevent").classList.remove("active");
- document.querySelector(".home").classList.remove("active");
- document.querySelector(".symptoms").classList.remove("active");
- evt.currentTarget.className += " active";
+	document.querySelector(".update").classList.remove("active");
+	document.querySelector(".prevent").classList.remove("active");
+	document.querySelector(".home").classList.remove("active");
+	document.querySelector(".symptoms").classList.remove("active");
+	evt.currentTarget.className += " active";
 }
 
 function ffth(evt){
 	menu.classList.toggle("active");
- document.querySelector(".update").classList.remove("active");
- document.querySelector(".prevent").classList.remove("active");
- document.querySelector(".about").classList.remove("active");
- document.querySelector(".home").classList.remove("active");
- evt.currentTarget.className += " active";
+	document.querySelector(".update").classList.remove("active");
+	document.querySelector(".prevent").classList.remove("active");
+	document.querySelector(".about").classList.remove("active");
+	document.querySelector(".home").classList.remove("active");
+	evt.currentTarget.className += " active";
 }
 
 var Info = document.querySelector("#modal1Container");
